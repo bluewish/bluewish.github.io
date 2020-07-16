@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+
+  content: "";
+  clear: both;
+  display: block;
+}
+ 
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+ 
+.header {
+  background-color: white;
+  color: gray;
+  padding: 15px;
+  height: 90px;
+
+}
+
+.header h1 {
+	display : inline;
+    }
+
+
+.header ul li { 
+ list-style-type : none;
+ float: left;
+ display : inline-block;
+ margin-left : 40px;
+ margin-top : -30px;
+ }
+
+ 
+
+.menu  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: white;
+  color: gray;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  list-style-type: none;
+}
+
+ 
+
+.menu li:hover {
+  background-color: white;
+}
+
+button {
+    width: 90px;
+    height: 40px;
+}
+
+.aside {
+  background-color: gray;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+ 
+
+.footer {
+  background-color: black;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  padding: 15px;
+  line-height: 8px;
+  height:  200px;
+}
+
+.footer .com-info {
+    margin-top: 45px;
+    margin-left: 50px;
+}
+ 
+
+/* For desktop: */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+ 
+
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+
+  [class*="col-"] {
+    width: 100%;
+  }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+ 
+
+<div class="header">
+
+  <h1>SUM[thing]</h1>
+
+  <ul>
+    <li>Home</li>
+    <li>Our Story</li>
+    <li>Portfolio</li>
+    <li>Contact</li>
+ </ul>
+
+</div>
+
+ 
+
+<div class="row">
+
+  <div class="col-3 menu">
+
+    <ul>
+    <li>브랜드에 꼭 맞는 제품을 찾아드려요.</li>
+    <li>굿즈 디자인도 해드려요.</li>
+    <li>원하는 대로 만들 수도 있어요.</li>
+    </ul>
+
+  </div>
+
+ 
+
+  <div class="col-6">
+    <h2>웰컴키트 제작
+        생각보다
+        ​어렵지 않아요.</h2>
+    <p>아이템 선정부터 디자인, 제작까지 한번에!
+        썸띵과 함께 만들어보실래요?</p>
+  </div>
+
+ 
+
+  <div class="col-3 right">
+    <div class="aside">
+      <h2>What?</h2>
+    </div>
+  </div>
+
+</div>
+
+ 
+
+<div class="footer">
+    <div class="com-info">
+        <p>썸띵 (SUMTHING)</p>
+        <p>02-3012-1206   l   sum@sumthing.co.kr</p>
+        <p>서울특별시 송파구 송파대로28길 24, 밀리아나2차 910호</p>
+        <p>ⓒ SUMTHING. All Rights Reserved.</p>
+    </div>
+</div>
+
+ 
+
+</body>
+
+</html>
