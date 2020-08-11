@@ -1,0 +1,33 @@
+link {
+    display: none;
+}
+.header_wrap {
+    height: 90px;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    
+}
+
+.header_logo {
+    
+    height: 63px;
+    width: 169px;
+    border : 1px solid red
+}
+nav ul li .gnb_menu_list {
+    
+    font-family: "NanumSquare-EB",나눔고딕, 돋음,"Dotum", sans-serif;
+
+}
+nav ul li {
+    float: left;
+    font-family: "NanumSquare-EB",나눔고딕, 돋음,"Dotum", sans-serif;
+    font-size : 16px;
+    color : grey;}
+
+li+li {
+    margin-left: 16px;
+
+}

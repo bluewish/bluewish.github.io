@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //var a = {c:10}; // var a = new Object();   var a = new Array();
+        //var b = function() {} // =  var b = new function() {} 함수용 객체 생성 var a = () => {}
+        //일반 객체나 배열객체는 정보를 저장.
+        //함수는 실행하려고 할때.
+        //자바스크립트에서 배열,일반객체,함수는 모두 객체, 함수기반의 언어다.
+        
+       // var a = 1 // 준비단계와 실행단계가 있다. 준비-식별자를 준비하고 실행단계에서 값을 저장
+        // undefined - 컴퓨터가 안에 없다고 알려줄때, null - 사용자가 값이 없다고 의도적으로 넣음.
+        // 실행하기위한 정보준비 e.c , stack 형식, 쌓아올리는 방식,
+        // g.e.c.가 브라우져안에서는 window
+            
+        var a = 1;
+        foo(10);
+        //var foo = function() {}; /*FE*/
+        
+            function foo(arg1) {
+                var k = 1;
+                bar(5);
+                //console.log(arg) /*FD*/
+                //console.log(a)
+                Function bar(arg2) { 
+                    console.log(arg1 + arg2);
+
+                }
+            }
+
+            
+        var aa = {
+            b : 1
+        }
+        var bb =[]
+        bb[0] = e;
+        
+    
+    
+        .bb.push(1)};
+        .bb.push(2)};
+        .bb.push(3)};
+
+        //function 앞에 무언가 있다면 리터럴함수 없다면 선언형함수. 선언형은 바로 준비가 되기에
+        //순서없이 바로 실행가능
+    </script>
+</body>
+</html>
